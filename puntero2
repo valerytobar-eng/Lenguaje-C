@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main()
+{
+    int x=30;
+    int *puntero=&x;
+    printf("El valor inicial de la x = %d\n", x);
+    *puntero=60;
+    printf("El final de la x = %d\n", x);
+    return 0;
+}
